@@ -6,6 +6,7 @@ import './App.css';
 import Home from './pages/Home'
 import Nav from './components/Nav'
 import Contact from './components/Contact';
+import Projects from './pages/Projects';
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
       <div>
       < Nav/>
        < Home/>
+       <Projects/>
        <Contact/>
        </div>
       )
